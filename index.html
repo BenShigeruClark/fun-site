@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Personal Fun Website</title>
-    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/9a8f808899.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav id="navbar" class="nav">
-      <ul class="nav-list">
-        <li>
-          <a href="#home-top">Home</a>
-        </li>
-        <li>
-          <a href="#about">About Me</a>
-        </li>
-        <li>
-          <a href="#photography">Photography</a>
-        </li>
-        <li>
-          <a href="#music">Music</a>
-        </li>
-      </ul>
-    </nav>
-    <section id="home-page" class="home-page">
-      <h1>Photography & Music</h1>
-      <h2>byPerson = [benClark]</h2>
+    <section class="intro">
+      <nav id="navbar" class="nav">
+        <a href="#" id="menu-icon">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#port">Portfolio</a></li>
+            <li><a href="#serv">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </a> 
+      </nav>
+      <div class="inner">
+        <div class="content">
+          <h1>Ben Clark Photography</h1>
+          <p>my pics!</p>
+        </div>
+      </div>
       <img src="img/benClarkPort2020-02.jpg" id="intro-pic" alt="unwound">
     </section>
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>This is the bottom of page</h2>
+    <a name="about">
+      <div class="clearfix">
+
       </div>
+    <section class="left-col">
+      <h2>About Me</h2>
+      <p style="text-indent: 6%;">I love Photography, blah blah blah blah blah</p>
     </section>
+    <section class="sidebar">
+      <img src="img/2B301B93-7553-4F47-9778-251C4FC9325E-13964-00000E99C268E560.jpg">
+    </section>
+    <div class="clearfix"></div>
+    <a name="port">
+      <h2>My Portfolio</h2>
+      <section class="one-third-port">
+        <a href=""><img src="img/benClarkPort2020-02.jpg"></a>
+      </section>
     <footer class="btn-contact-links">
       <a href="https://www.instagram.com/grain_vs_pixel/?hl=en" target="blank" id="instagram" class="btn contact-details">
         <i class="fab fa-instagram-square">Insta</i>
